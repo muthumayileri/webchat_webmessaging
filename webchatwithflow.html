@@ -18,13 +18,13 @@
 		webchat: {
 			transport: {
 				type: "purecloud-v2-sockets",
-				dataURL: "https://api.mypurecloud.ie",
-				deploymentKey: "308428df-9680-4b86-b11e-28f9a643fbcd",
-				orgGuid: "88d80579-963b-422c-a692-26dbfa84b446",
+				dataURL: "https://api.usw2.pure.cloud",
+				deploymentKey: "d934e943-33a9-4975-b2b7-c6ea8969ea60",
+				orgGuid: "989e0b82-80e0-4723-b26e-d31ee9428e10",
 				interactionData: {
 					routing: {
 						targetType: "QUEUE",
-						targetAddress: "Technical Support",
+						targetAddress: "Test Queue",
 						priority: 2
 					}
 				}
@@ -127,8 +127,8 @@
   (function(a,t,c,l,o,u,d){a['_genesysJourneySdk']=o;a[o]=a[o]||function(){
   (a[o].q=a[o].q||[]).push(arguments)},a[o].l=1*new Date();u=t.createElement(c),
   d=t.getElementsByTagName(c)[0];u.async=1;u.src=l;u.charset='utf-8';d.parentNode.insertBefore(u,d)
-  })(window, document, 'script', 'https://apps.mypurecloud.ie/journey/sdk/js/web/v1/ac.js', 'ac');
-  ac('init', '88d80579-963b-422c-a692-26dbfa84b446', { region: 'euw1' });
+  })(window, document, 'script', 'https://apps.usw2.pure.cloud/journey/sdk/js/web/v1/ac.js', 'ac');
+  ac('init', '989e0b82-80e0-4723-b26e-d31ee9428e10', { region: 'usw2' });
   ac('pageview');
 </script>
 
